@@ -1,15 +1,10 @@
 <h1>Your Text Analysis</h1>
-  <p><%@display = @analyzed_text.to_s%></p>
-  <p><%=@display%></p>
+  <p><%=@analyzed_text%></p>
 <h2>Number of Words: </h2>
-  <p><%@displayn = @analyzed_text.count_of_words.to_s%></p>
-  <p><%=@displayn%></p>
+  <p><%=@analyzed_text.count_of_words%></p>
 <h2>Vowels: </h2>
-  <p><%@displayv = @analyzed_text.count_of_vowels.to_s%></p>
-  <p><%=@displayv%></p>
+  <p><%=@analyzed_text.count_of_vowels%></p>
 <h2>Consonants: </h2>
-  <p><%@displayc = @analyzed_text.count_of_consonants.to_s%></p>
-  <p><%=@displayc%></p>
+  <p><%=@analyzed_text.count_of_consonants%></p>
 <h2>Most Common Letter: _____ used _____ times</h2>
-  <p><%@displaycl = @analyzed_text.most_used_letter.to_s%></p>
-  <p><%=@displaycl%></p>
+  <p><%=@analyzed_text.most_used_letter%></p>
